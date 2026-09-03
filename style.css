@@ -50,7 +50,7 @@ body {
 .nav a {
     color: var(--text-color);
     text-decoration: none;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     transition: color 0.3s;
     font-size: 0.9rem;
 }
