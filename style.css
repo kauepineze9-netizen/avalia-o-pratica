@@ -84,6 +84,9 @@ body {
     font-size: 1.2rem;
     color: var(--text-dim);
     margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn {
@@ -135,7 +138,7 @@ body {
 .card-content {
     display: flex;
     gap: 2rem;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .card-content.reverse {
@@ -143,14 +146,14 @@ body {
 }
 
 .card-content img {
-    width: 45%;
+    width: 40%;
     border-radius: 6px;
     object-fit: cover;
-    height: 280px;
+    height: 320px;
 }
 
 .card-content div {
-    width: 55%;
+    width: 60%;
 }
 
 .card-content h3 {
@@ -161,11 +164,13 @@ body {
 .card-content p {
     color: var(--text-dim);
     margin-bottom: 1rem;
+    text-align: justify;
 }
 
 .card-content ul {
     list-style-position: inside;
     color: var(--text-dim);
+    margin-top: 1rem;
 }
 
 .card-content li {
@@ -197,6 +202,6 @@ body {
     }
     
     .nav {
-        display: none; /* Simplificado para mobile */
+        display: none;
     }
 }
